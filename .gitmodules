@@ -1,3 +1,6 @@
 [submodule "bird"]
 	path = bird
 	url = git@github.com:o-200/richbirds_wfp.git
+[submodule "rb-api_gateway"]
+	path = rb-api_gateway
+	url = https://github.com/o-200/rb-api_gateway
