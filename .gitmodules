@@ -4,3 +4,6 @@
 [submodule "rb-api_gateway"]
 	path = rb-api_gateway
 	url = https://github.com/o-200/rb-api_gateway
+[submodule "rb-auth"]
+	path = rb-auth
+	url = https://github.com/o-200/rb-auth
