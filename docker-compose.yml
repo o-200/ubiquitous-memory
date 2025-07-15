@@ -1,0 +1,10 @@
+services:
+  rb-api_gateway:
+    build:
+      context: rb-api_gateway/
+    ports:
+      - "3000:3000"
+
+  rb-user:
+    build:
+      context: rb-user/
