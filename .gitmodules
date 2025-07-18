@@ -1,9 +1,14 @@
 [submodule "rb-bird"]
 	path = rb-bird
 	url = https://github.com/o-200/rb-birb
+	branch = main
+
 [submodule "rb-api_gateway"]
 	path = rb-api_gateway
 	url = https://github.com/o-200/rb-api_gateway
+  branch = main
+
 [submodule "rb-auth"]
 	path = rb-user
 	url = https://github.com/o-200/rb-user
+	branch = main
