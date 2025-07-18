@@ -1,10 +1,22 @@
 services:
   rb-api_gateway:
     build:
-      context: rb-api_gateway/
+      context: ./rb-api_gateway
     ports:
       - "3000:3000"
+    networks:
+      - app-network
+    volumes:
+      - ./rb-api_gateway/src:/rb-api_gateway/src
 
   rb-user:
     build:
-      context: rb-user/
+      context: ./rb-user
+    networks:
+      - app-network
+    volumes:
+      - ./rb-user:/rb-user
+
+networks:
+  app-network:
+    driver: bridge
