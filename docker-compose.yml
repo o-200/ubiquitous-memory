@@ -16,6 +16,14 @@ services:
       - app-network
     volumes:
       - ./rb-user:/rb-user
+  
+  rb-bird:
+    build:
+      context: ./rb-bird
+    networks:
+      - app-network
+    volumes:
+      - ./rb-bird:/rb-bird
 
 networks:
   app-network:
